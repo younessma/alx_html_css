@@ -1,0 +1,84 @@
+/* ===== BASE STYLES ===== */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ===== LOGO STYLING ===== */
+.logo {
+  font-size: 2.5rem;
+  color: #0d6efd;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* ===== ARTICLE STYLING (free to modify) ===== */
+article {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+}
+
+article h2 {
+  color: #0d6efd;
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #0d6efd;
+}
+
+article p {
+  margin-bottom: 1rem;
+}
+
+/* ===== LIST STYLING ===== */
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+li::before {
+  content: "•";
+  color: #0d6efd;
+  font-size: 1.5em;
+  position: absolute;
+  left: 0;
+  top: -0.25rem;
+}
+
+/* ===== TAGS STYLING (predefined class) ===== */
+.tags {
+  font-size: 1.75rem;
+  color: #0d6efd;
+  display: inline-block;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+/* ===== INTERACTIVE ELEMENTS ===== */
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  background-color: #e7f1ff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
